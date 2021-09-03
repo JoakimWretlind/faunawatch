@@ -14,7 +14,7 @@ export const projectData = [
         id: 2,
         header: "BIRDMARKET ANTWERP",
         text: "As one of the last countries in Europe, Belgium still allows pets, such as rabbits, hamsters, guinea pigs, poultry and exotic birds to be sold on the market. Therefore, Faunawatch Specialists have conducted research into the welfare of animals at the Antwerp Bird Market (Vogelenmarkt) based on the 5 freedoms, on which the European Union law for improving animal welfare is based. These 5 freedoms are as follows: Animals are…",
-        btn: "read the resulta",
+        btn: "read the result",
         img: Birds,
         imginfo: "birds"
     }

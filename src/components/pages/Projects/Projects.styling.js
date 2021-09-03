@@ -20,7 +20,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const SingleProject = styled.div`
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     margin-top: 5rem;
     display: flex;
@@ -30,7 +30,7 @@ export const SingleProject = styled.div`
 
 export const ImageContainer = styled.div`
     overflow: hidden;
-    height: 50vh;
+    height: 40vh;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -38,7 +38,8 @@ export const ImageContainer = styled.div`
 `;
 
 export const ProjectImg = styled.img`
-    height: 100%;
+    width: 100%;
+    height: 40vh;
     object-fit: cover;  
 `;
 
@@ -56,8 +57,13 @@ export const InfoContent = styled.div`
 export const ProjectHeader = styled.h2`
     text-transform: uppercase;
     align-items: flex-start;
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+    letter-spacing: .1rem;
 `;
 
 export const ProjectInfo = styled.p`
     align-items: flex-start;
+    font-size: clamp(1.2rem, 4vw, 1.4rem);
+    letter-spacing: .1rem;
+    margin-top: -3rem;
 `;

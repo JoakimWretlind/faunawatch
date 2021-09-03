@@ -15,7 +15,7 @@ const ProjectCard = () => {
         <div>
             {projectData.map(item => {
                 return (
-                    <SingleProject>
+                    <SingleProject key={item.id}>
                         <ImageContainer>
                             <ProjectImg src={item.img} alt={item.imginfo} />
                         </ImageContainer>
