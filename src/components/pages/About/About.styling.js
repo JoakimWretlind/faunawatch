@@ -7,7 +7,6 @@ export const AboutSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
 `;
 
 export const AboutContainer = styled.div`    
@@ -19,7 +18,6 @@ export const AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
 `;
 
 export const AboutContent = styled.div`
