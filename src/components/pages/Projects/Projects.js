@@ -4,7 +4,7 @@ import {
     ProjectSection,
     ProjectContainer
 } from './Projects.styling';
-import { MainHeader, Underline } from '../../sharedComponents';
+import { MainHeader, Underline, BigBtn } from '../../sharedComponents';
 
 const Projects = () => {
     return (
@@ -14,6 +14,7 @@ const Projects = () => {
                     <MainHeader>projects</MainHeader>
                     <Underline />
                     <ProjectCard />
+                    <BigBtn className="lastOnSection">More projects</BigBtn>
                 </ProjectContainer>
             </ProjectSection>
         </>

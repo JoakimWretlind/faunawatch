@@ -15,6 +15,9 @@ export const BigBtn = styled.span`
     font-size: clamp(1.4rem, 4vw, 1.6rem);
     color: #f1f1f1;
     letter-spacing: .1rem;
+    &.lastOnSection{
+        margin-top: 5rem;
+    }
 `;
 
 export const MainHeader = styled.h1`
