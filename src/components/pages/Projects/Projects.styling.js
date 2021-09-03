@@ -9,7 +9,7 @@ export const ProjectSection = styled.section`
 `;
 
 export const ProjectContainer = styled.div`
-    margin-top: 2rem;
+    margin-top: 0rem;
     height: 100%;
     width: 100%;
     max-width: 116rem;

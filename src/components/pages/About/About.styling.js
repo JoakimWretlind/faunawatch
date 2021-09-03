@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
     height: 100%;
     width: 100%;
     max-width: 116rem;
-    margin-top: 5rem;
+    margin-top: 12rem;
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
