@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const InvolvedSection = styled.section`
-    margin-top: 2rem;
+export const InvolvedSection = styled.section`    
     height: 100%;
     width: 100%;
     display: flex;
@@ -10,6 +9,7 @@ export const InvolvedSection = styled.section`
 `;
 
 export const InvolvedContainer = styled.div`
+    margin-top: 2rem;
     height: 100%;
     width: 100%;
     max-width: 116rem;
@@ -22,7 +22,7 @@ export const InvolvedContainer = styled.div`
 export const CardContainer = styled.div`
     height: 50vh;
     width: 100%;
-    margin: 3rem 0;
+    margin: 5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
