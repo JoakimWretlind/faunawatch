@@ -9,7 +9,8 @@ import {
     ListWrapper,
     NavLI,
     SearchIcon,
-    Language
+    Language,
+    NavItemsRight
 } from './Navbar.styling'
 import { Btn } from '../sharedComponents';
 
@@ -25,11 +26,13 @@ const Navbar = () => {
                             <NavLI>projects</NavLI>
                             <NavLI>get involved</NavLI>
                         </ListWrapper>
-                        <Btn>donate</Btn>
-                        <SearchIcon>
-                            <ImSearch />
-                        </SearchIcon>
-                        <Language>en / nl</Language>
+                        <NavItemsRight>
+                            <Btn>donate</Btn>
+                            <SearchIcon>
+                                <ImSearch />
+                            </SearchIcon>
+                            <Language>en / nl</Language>
+                        </NavItemsRight>
                     </ListContainer>
                 </NavUL>
             </NavbarWrapper>

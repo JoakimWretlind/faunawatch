@@ -3,16 +3,22 @@ import styled from 'styled-components';
 export const HeroSection = styled.div`
     position: relative;
     overflow: hidden;
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
+    @media screen and(min-width: 400px){
+        height: 40vh;
+    }
 `;
 
 export const HeroImg = styled.img`
+    height: 100%;
+    object-fit: cover;
+@media screen and (min-width: 500px){
     width: 100%;
-    object-fit: cover;  
+}     
 `;
 
 export const HeroContentWrapper = styled.div`
@@ -40,9 +46,10 @@ export const HeroContent = styled.div`
 
 export const HeroHeaderH2 = styled.h2`
     color: #f1f1f1;
-    margin-top: 3rem;
+    margin: 3rem 3rem 2rem 3rem;
     text-transform: uppercase;
-    font-size: clamp(1.8rem, 6vw, 2.2rem);
+    text-align: center;
+    font-size: clamp(1.4rem, 3.6vw, 2rem);
     letter-spacing: .1rem;
 `;
 

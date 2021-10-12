@@ -20,11 +20,13 @@ export const InvolvedContainer = styled.div`
 `;
 
 export const CardContainer = styled.div`
-    height: 50vh;
+    height: 100%;
+    min-height: 50vh;
     width: 100%;
     margin: 5rem 0;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 `;
 
@@ -32,6 +34,8 @@ export const SingleCard = styled.div`
     overflow: hidden;
     height: 100%;
     width: 30%;
+    min-width: 26rem;
+    margin: 0 1rem 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

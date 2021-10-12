@@ -15,6 +15,7 @@ export const BigBtn = styled.span`
     font-size: clamp(1.4rem, 4vw, 1.6rem);
     color: #f1f1f1;
     letter-spacing: .1rem;
+    margin-top: 2rem;
     &.lastOnSection{
         margin-top: 5rem;
     }
@@ -22,16 +23,19 @@ export const BigBtn = styled.span`
 
 export const MainHeader = styled.h1`
     color: orange;
-    margin: 5rem 0 0;
+    margin: 5rem 3rem 0 3rem;
+    text-align: center;
     text-transform: uppercase;
-    font-size: clamp(2rem, 6vw, 3rem);
+    font-size: clamp(3rem, 6vw, 4.4rem);
     letter-spacing: .3rem;
 `;
 
 export const SecondaryHeader = styled.h2`
     color: orange;
     text-transform: uppercase;
-    font-size: clamp(1.8rem, 6vw, 2.6rem);
+    margin: 0 3rem;
+    text-align: center;
+    font-size: clamp(1.8rem, 6vw, 2.2rem);
     letter-spacing: .3rem;
 `;
 
